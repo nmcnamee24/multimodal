@@ -1,0 +1,58 @@
+:root {
+  --paper: #faf8f5;
+  --surface: #ffffff;
+  --ink: #292524;
+  --ink-soft: #57534e;
+  --muted: #756d66;
+  --line: #ddd6ce;
+  --line-strong: #a79d93;
+  --accent: #b45309;
+  --accent-soft: #f7eadc;
+  --amber: #d97706;
+  --amber-soft: #f5cf8a;
+  --green: #4f7f61;
+  --display: "Avenir Next", "Helvetica Neue", Helvetica, sans-serif;
+  --sans: "Avenir Next", "Helvetica Neue", Helvetica, sans-serif;
+  --mono: "SFMono-Regular", "SF Mono", Consolas, "Liberation Mono", monospace;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  border-radius: 0;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+svg {
+  flex: 0 0 auto;
+}
